@@ -1,0 +1,53 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "AF",
+        "type": "circle",
+        "radius_m": 152.4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-80.19689, 44.49804]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Shop",
+        "type": "circle",
+        "radius_m": 152.4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-80.18547, 44.49171]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sobeys",
+        "type": "circle",
+        "radius_m": 152.4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-80.2140433, 44.5038506]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "The origin",
+        "type": "circle",
+        "radius_m": 152.4
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [0.0, 0.0]
+      }
+    }
+  ]
+}
