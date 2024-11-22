@@ -1,53 +1,34 @@
-{
-  "type": "FeatureCollection",
+{ "type": "FeatureCollection",
   "features": [
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "AF",
-        "type": "circle",
-        "radius_m": 152.4
+    { "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [102.0, 0.5]},
+      "properties": {"prop0": "value0"}
       },
+    { "type": "Feature",
       "geometry": {
-        "type": "Point",
-        "coordinates": [-80.19689, 44.49804]
-      }
-    },
-    {
-      "type": "Feature",
+        "type": "LineString",
+        "coordinates": [
+          [102.0, 0.0], [103.0, 1.0], [104.0, 0.0], [105.0, 1.0]
+          ]
+        },
       "properties": {
-        "name": "Shop",
-        "type": "circle",
-        "radius_m": 152.4
+        "prop0": "value0",
+        "prop1": 0.0
+        }
       },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-80.18547, 44.49171]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Sobeys",
-        "type": "circle",
-        "radius_m": 152.4
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-80.2140433, 44.5038506]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "The origin",
-        "type": "circle",
-        "radius_m": 152.4
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [0.0, 0.0]
-      }
-    }
-  ]
-}
+    { "type": "Feature",
+       "geometry": {
+         "type": "Polygon",
+         "coordinates": [
+           [ [100.0, 0.0], [101.0, 0.0], [101.0, 1.0],
+             [100.0, 1.0], [100.0, 0.0] ]
+           ]
+
+       },
+       "properties": {
+         "prop0": "value0",
+         "prop1": {"this": "that"}
+         }
+       }
+    ]
+  }
